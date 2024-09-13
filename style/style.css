@@ -145,15 +145,46 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
-    
 }
+
+.icon{
+    position: relative;
+    z-index: 10;
+    width: 25px;
+    height: 25px;
+    background-color: #F2BC1B;
+    border-radius: 5px;
+    top: -20px;
+    left: -95px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.icon img{
+    width: 16px;
+    height: 16px;
+}
+
 
 .bloco2 .description{
     font-size: 20px;
     color: #ffff;
+    margin-top: -30px;
 }
 
 .bloco2 p{
     font-size: 16px;
     color: #0B2F19;
+}
+
+.preguica{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.preguica img{
+    width: 200px;
+    height: 150px;
 }
